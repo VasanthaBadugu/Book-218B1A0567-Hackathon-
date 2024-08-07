@@ -1,0 +1,175 @@
+body,ul,li,h1,h2,p{
+    margin: 5;
+    padding: 5;
+
+}
+body{
+    background-image: url("air3.jpg");
+    background-size: cover;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background:skyblue;
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 5;
+  }
+  
+  .header .logo {
+    font-weight: bolder;
+    color: black;
+    font-size: 2.5rem;
+  }
+  
+  .header .logo span {
+    color: crimson;
+  }
+  
+  .header .navbar a {
+    font-size: 1.7rem;
+    color:skyblue;
+    margin-left: 2rem;
+  }
+  
+  .header .navbar a:hover {
+    color: var(--theme-color);
+  }
+
+.nav .ul{
+    background-color: skyblue;
+    text-align: center;
+}
+
+body{
+    background-color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav ul li{
+    display: inline;
+    margin-right:10px ;
+    
+}
+nav ul li a{
+    color:black;
+    text-decoration: none;
+}
+.service .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+  gap: 1.5rem;
+}
+
+.service .box-container .box {
+  border-radius: 0.5rem;
+  background: #333;
+  text-align: center;
+  padding: 2.5rem;
+}
+
+.service .box-container .box i {
+  height: 6rem;
+  width: 6rem;
+  line-height: 6rem;
+  border-radius: 50%;
+  font-size: 2.5rem;
+  background: var(--theme-color);
+  color: #fff;
+}
+
+.service .box-container .box h3 {
+  font-size: 2rem;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.service .box-container .box p {
+  font-size: 1.4rem;
+  color: #eee;
+  line-height: 1.8;
+}
+.login{
+  border: 1px solid black;
+  width: 400px;
+  height:500px;
+  background: url();
+  color:white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.75);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+form{
+  display: block;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 100%;;
+  height: 100%;
+  backdrop-filter: brightness(40%);
+  flex-direction: column;
+  display: flex;
+  gap: 5px;
+}
+h1{
+  font-weight: normal;
+  font-size: 24px;
+  font-size: 0px 0px 2px rgba(0,0,0,0.5);
+  margin-bottom: 60px;
+}
+label{
+  color: rgba(255,255,255,0.8);
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 2px;
+  padding-left: 10px;
+}
+input{
+  background: rgba(0,0,0,0.3);
+  height: 40px;
+  line-height: 40px;
+  border-radius: 20px;
+  padding: 0px 20px;
+  border: none;
+  margin-bottom: 20px;
+  color: white;
+}
+button{
+  background: rgb(45,126,231);
+  height:40px;
+  line-height: 40px;
+  border-radius: 40px;
+  border: none;
+  margin: 10px 0px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+  color: white;
+}
+.about {
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: row;
+  font-family: sans-serif;
+}
+.paragraph{
+  color:#555;
+  display:flex;
+  flex-direction: column;
+}
+.content{
+  padding: 20px;
+}
+.title{
+  font-size: 24px;
+  color: #222;
+  line-height: 24px;
+}
+footer{
+    background-color:skyblue;
+    color:black;
+    text-align: center;
+    padding: 20px 0;
+}
+
